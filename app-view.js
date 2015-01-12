@@ -48,7 +48,7 @@ module.exports = Backbone.View.extend({
 
 
 
-        map = L.map('map').setView([25.076907, 121.573812], 14);
+        map = L.map('map').setView([25.032961, 121.562655], 14);
         mapLink =
             '<a href="http://openstreetmap.org">OpenStreetMap</a>';
         L.tileLayer(
